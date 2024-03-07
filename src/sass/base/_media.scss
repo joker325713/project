@@ -2,10 +2,39 @@
 }
 
 @media (max-width: 991px) {
+    .promo {
+        &__header {
+            padding: 0 20px 0 20px;
+        }
+        &__subheader {
+            padding: 0 20px 0 20px;
+        }
+        &__icons {
+            padding: 0 20px 0 20px;
+        }
+    }
+    .button_padding {
+        padding: 0 20px 0 20px;
+    }
+    .promo__link {
+        padding: 0 20px 0 20px;
+    }
+     .header__contacts {
+        padding: 0 20px 0 20px;
+     }
     .advantages {
         &__icons {
             width: 100%;
         }
+    }
+    .title_left {
+        padding: 0 20px 0 20px;
+    }
+    .consultation__descr {
+        padding: 0 20px 0 20px;
+    }
+    .feed-form {
+        padding: 0 20px 0 20px;
     }
 }
 
@@ -71,5 +100,18 @@
         &__header {
             font-size: 35px;
         }
+    }
+
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+        .title_left {
+            text-align: center;
+        }
+        
+    }
+    .feed-form {
+        margin: 0 auto;
     }
 }
