@@ -1,0 +1,40 @@
+.reviews {
+    min-height: 920px;
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+    }
+    
+    &__review {
+        &__name {
+            color: rgb(13, 13, 13);
+            font-family: MuseoModerno;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 0px;
+            text-align: left;
+            &__descr {
+                margin-top: 3px;
+                color: rgb(100, 100, 100);
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 13px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+        }
+        &__text {
+                margin-top: 15px;
+                color: rgb(13, 13, 13);
+                font-size: 16px;
+                font-weight: 300;
+        }
+    }
+}
