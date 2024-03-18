@@ -196,6 +196,7 @@
             flex-direction: column;
             justify-content: center;
             margin: 0 auto;
+            margin-top: 15px;
             
         }
     }
@@ -223,6 +224,20 @@
             margin-bottom: 16px;
             font-size: 18px;
         }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            margin: 11px;
+        }
+    }
+    .modal__close {
+        right: 10px;
+        top: 10px;
+    }
+    .modal {
+        width: 300px;
+        min-height: 380px;
+        padding: 35px 6px 40px 1px;
     }
 
 }
